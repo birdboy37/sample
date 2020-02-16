@@ -1,31 +1,4 @@
-header {
-  height :65px;
-  width :100%;
-  background-color :rgba(34,49,52,0.9);
-  position :fixed;
-  top :0;
-  z-index :10;
-  display :block;
-  box-sizing :border-box;
-}
-
-.logo {
-  width :124px;
-  margin-top :20px;
-}
-
-.header-left {
-  float :left ;
-  
-}
-
-.header-right {
-  float :right ;
-  margin-right :-20px;
-  height :65px;
-  
-}
-
+√
 .header-right a {
   padding :0 25px;
   line-height :65px;
