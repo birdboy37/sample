@@ -2,67 +2,93 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8">
-    <title>ようしんのHP</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <title>ようしんのHP</title>
   </head>
   <body>
-    <div class="header">
-      <div class="header-logo">ようしん</div>
-      <div class="header-list">
-        <ul>
-          <a href="https://google.com" target="_blank">ようしんとは</a>
-          <a href="https://yahoo.co.jp" target="_blank">その仲間達</a>
-          <li>お問い合わせ</li>
-        </ul>
+    <header>
+      <div class="container">
+        <div class="header-left">
+          <img class="logo" src="https://prog-8.com/images/html/advanced/main_logo.png">
+        </div>
+        <div class="header-right">
+          <a  class="login" href="#">ログイン</a>
+        </div>
+      </div>
+    </header>
+    <div class="top-wrapper">
+      <div class="container">
+        <h1 class="section-title">Hello World.</h1>
+        <h1>楽しくプログラミングを勉強しよう</h1>
+        <p>手取り足取り優しく教えますよ！！</p>
+        <div class="btn-wrapper">
+          <a href="#" class="btn signup">新規登録</a>
+          <p>or</p>
+          <a href="https://facebook.com" class="btn facebook">
+            <i class="fab fa-facebook-f"></i>
+            Facebookへ
+          </a>
+        </div>
+      </div>
+      
+    </div>
+    <div class="lesson-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>さぁ始めよう！</h2>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/html.png">
+              <p>HTML & CSS</p>
+            </div>
+            <p class="txt-contents">初歩</p>
+          </div>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/jQuery.png">
+              <p>jQuery</p>
+            </div>
+            <p class="txt-contents">基本</p>
+          </div>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/ruby.png">
+              <p>Ruby</p>
+            </div>
+            <p class="txt-contents">応用</p>
+          </div>
+        </div>
+        <div class="lessons">
+          <div class="lesson">
+            <div class="lesson-icon">
+              <img src="https://prog-8.com/images/html/advanced/php.png">
+              <p>PHP</p>
+            </div>
+            <p class="txt-contents">実践</p>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="main">
-      <div class="copy-container">
-        <h1>南無妙法<span>蓮華経</span></h1>
-        <h2>方法華経</h2>
+    <div class="message-wrapper">
+      <div class="container">
+        <div class="heading">
+          <h2>動くのは今だ！</h2>
+          <h3>Go Go Go!!</h3>
 
-      </div>
-      <div class="contents">
-        <h3 class="section-title">身近な天国と地獄</h3>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/html.svg">
-          <p>仏陀</p>
         </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/php.svg">
-          <p>釈迦</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/ruby.svg">
-          <p>カンダタ</p>
-        </div>
-        <div class="contents-item">
-          <img src="https://s3-ap-northeast-1.amazonaws.com/progate/shared/images/lesson/html/study/swift.svg">
-          <p>ジェイソン</p>
-        </div>
-
-      </div>
-      <div class="contact-form">
-        <h3 class="section-title">聞きたい事あればお願いします</h3>
-        <p>貴方様の連絡先</p>
-        <input>
-        <p>御相談内容</p>
-        <textarea></textarea>
-        <p>※お手数おかけしますが、どちらも記入お願いします</p>
-        <input class="contact-submit" type="submit" value="送信...">
+        <span class="btn message">早速開発する</span>
 
       </div>
 
     </div>
-    <div class="footer">
-      <div class="footer-logo">ようしん地獄バス</div>
-      <div class="footer-list">
-        <ul>
-          <li>お問い合わせ</li>
-          <li>地獄行き</li>
-          <li>天国の連絡先</li>
-        </ul>
-      </div>
-    </div>
+    <footer>
+    </footer>
   </body>
 </html>
