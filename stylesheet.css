@@ -6,7 +6,7 @@ a {
   text-decoration: none;
 }
 .top-wrapper {
-  background-image :url(img/top.png);
+  background-image :url("../img/top.png");
   background-size :cover;
   padding :180px 0 100px 0 ;
   color :white;
